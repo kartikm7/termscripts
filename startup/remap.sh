@@ -1,6 +1,6 @@
 #!/usr/bin/zsh
 # the above is the schbang, tells which shell interpreter to use
-ps -A | grep xremap
+ps -A | grep -q xremap
 match_found=$?
 
 # if the process does not exist, we only then run it again
